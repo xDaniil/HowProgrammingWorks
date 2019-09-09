@@ -1,7 +1,7 @@
 
 const range = (lowPoint, highPoint) => {
 
-    for(let i = lowPoint; i <= highPoint; i += 1) {
+    for(let i = lowPoint; i <= highPoint; i ++) {
         if(i % 2) {
             console.log(i);
         }
